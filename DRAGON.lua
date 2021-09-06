@@ -3322,7 +3322,6 @@ keyboard = {}
 keyboard.inline_keyboard = { 
 {{text = ' harwen𝅘𝅥𝅮',url="t.me/mhzon1"}}, 
 } 
-} 
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/elsaffal&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
 if text == 'مصطفي' or text == 'السافل' or text == 'السرسجي' or text == 'صاصا ' or text == 'مصاصا' or text == 'mostafa' then 

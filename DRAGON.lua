@@ -16226,7 +16226,7 @@ local Text =[[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = 'رفع مطور', callback_data="رفع مطور"},{text = 'رفع مطور ثانوي', callback_data="رفع مطور ثانوي"},
+{text = 'رفع مطور'},{text = 'رفع مطور ثانوي', url="https://t.me/joinchat/VR5TVXBF9lphZGM0"},
 },
 {
 {text = 'رفع منشئ', callback_data="رفع منشئ"},{text = 'رفع منشئ اساسي', callback_data="/monsh2"},
